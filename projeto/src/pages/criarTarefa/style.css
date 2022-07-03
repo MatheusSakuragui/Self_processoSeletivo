@@ -21,6 +21,15 @@ h2{
     box-shadow: 1px 1px 2px 2px gray;
 }
 
+.btn.waves-effect.waves-light{
+    height: 50px;
+    width: 40%;
+    left: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 .validate::placeholder{
     color: rgba(58, 56, 56, 0.712)
 
