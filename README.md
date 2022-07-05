@@ -18,3 +18,8 @@
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   </p>
+  <h2>:rocket:Como rodar o Sistema</h2><br>
+       1. Clone o repositório;<br><br>
+       2. No prompt de comando de sua IDE, utlize 'cd projeto' ;<br><br>
+       3. Ainda no prompt digite 'npm install' e depois 'npm start', depois apenas aguarde, o seu navegador ira abrir com o projeto<br><br>  
+  
