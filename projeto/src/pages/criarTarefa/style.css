@@ -25,9 +25,16 @@ h2{
     height: 50px;
     width: 40%;
     left: 30%;
+    background-color: #01579b ;
     font-size: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    transition: 1s;
+}
+
+.btn.waves-effect.waves-light:hover{
+    transition: 0.5s;
+    background-color: #0277bd;
 }
 
 .validate::placeholder{

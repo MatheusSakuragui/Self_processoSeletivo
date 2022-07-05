@@ -1,0 +1,62 @@
+a{
+    font-size: 20px;
+}
+
+h4{
+    position: relative;
+    left: 30%;
+}
+
+.tabela{
+    position: relative;
+    top: 50px;
+    left: 15%;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px gray;
+
+}
+
+input::placeholder{
+    text-indent: 10px;
+    color: rgba(58, 56, 56, 0.712)
+}
+
+.fa-solid.fa-check.fa-2x{
+    color: rgb(11, 153, 11);
+    transition: 1s;
+}
+
+.fa-solid.fa-pen.fa-2x{
+    color: rgba(16, 68, 128, 0.808);
+    transition: 1s;
+}
+
+.fa-solid.fa-x.fa-2x{
+    color: rgb(204, 45, 45);
+    transition: 1s;
+}
+
+.fa-solid.fa-check.fa-2x:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #66bb6a ;
+}
+
+.fa-solid.fa-pen.fa-2x:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #0277bd;
+}
+
+.fa-solid.fa-x.fa-2x:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ef5350;
+}
+
+.waves-effect.waves-light.btn.center-align{
+    top: 15px;
+}
+
+

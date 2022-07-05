@@ -26,17 +26,13 @@ function CriarTarefa() {
     if(localStorage.getItem("tarefasNaoConcluidas") != undefined){
       let tarefas = []
       tarefas = JSON.parse(localStorage.getItem('tarefasNaoConcluidas')!)
-      console.log(tarefas);
       tarefas.push({nomeTarefa})
-      console.log(tarefas);
       
       localStorage.setItem("tarefasNaoConcluidas",JSON.stringify(tarefas))
-      console.log(JSON.parse(localStorage.getItem('tarefasNaoConcluidas')!)); 
     }
     else{
       let tarefas = [{nomeTarefa}]
       localStorage.setItem("tarefasNaoConcluidas",JSON.stringify(tarefas))
-      console.log(localStorage.getItem('tarefasNaoConcluidas'));
     }
     setNomeTarefa('')
     M.toast({html: 'Tarefa Criada!', classes: 'green darken-4 rounded'});
